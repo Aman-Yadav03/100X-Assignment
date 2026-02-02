@@ -21,7 +21,7 @@ function VoiceBot() {
 const [isSpeaking, setIsSpeaking] = useState(false);
 const utteranceRef = useRef(null);
 
-  const synthRef = useRef(window.speechSynthesis);
+  // const synthRef = useRef(window.speechSynthesis);
   const isRecognizingRef = useRef(false);
 
   const speak = (text) => {
