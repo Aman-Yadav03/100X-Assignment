@@ -1,0 +1,68 @@
+.voicebot-container {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.subtitle {
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.mic-btn {
+  background: #4f46e5;
+  color: white;
+  border: none;
+  padding: 14px 30px;
+  border-radius: 30px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.mic-btn:hover {
+  background: #3730a3;
+}
+
+.mic-btn.listening {
+  background: #dc2626;
+}
+
+.card {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.card.user {
+  background: #eef2ff;
+}
+
+.card.bot {
+  background: #ecfeff;
+}
+
+.loading {
+  margin-top: 15px;
+  font-style: italic;
+}
+.speech-controls {
+  margin-top: 15px;
+}
+
+.speech-controls button {
+  margin: 0 8px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  background: #e5e7eb;
+}
+
+.speech-controls button:hover {
+  background: #d1d5db;
+}
